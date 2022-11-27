@@ -47,10 +47,10 @@ author: Tobias Timofeyev
   -   `5_Comparison_HarmOscillator_Friction_Symptlectic.m` Plots 2nd order Simple Euler and Symplectic Euler to compare their performance in approximating long term behavior of a harmonic oscillator with a friction term. 
       The result is that the Symplectic Euler method much more accurately describes the weakening of the oscillatory behavior over time, as we would expect in the corresponding physical system.
   -   `5_Comparison_HarmOscillator_Symplectic.m` Compares Verlet, Modified Euler, Classical Runge-Kutta, and Central Difference methods, along with matlab's built-in ode45 function, in their ability to approximate a simple harmonic oscillator over a long time interval.
-  *-   `7_BVP_Second_Order_Shooting.m` Demonstrates a nonlinear boundary value problem solved with the shooting method.
+  -   `7_BVP_Nonlinear_Shooting.m` Demonstrates a nonlinear boundary value problem solved with the shooting method.
   -   `7_BVP_Shooting_Method.m` Demonstrates a second order boundary value problem solved with the shooting method.
   -   `7_BVP_Third_order_Shooting.m` Demonstrates a third order boundary value problem solved with the shooting method.
-  *-   `8_BVP_Matrix_Solution.m` Demonstrates a boundary value problem solved with a finite difference method.
+  -   `8_BVP_Finite_Element_Method.m` Demonstrates a boundary value problem solved with a finite difference method.
   -   `9_BVP_Finite_Element_Colocation.m` Uses Finite Element Collocation method to solve a boundary value problem.
 
 
