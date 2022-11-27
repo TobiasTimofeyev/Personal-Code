@@ -1,5 +1,5 @@
 # Selected Code in Numerical Analysis
-author: Tobias Timofeyev
+Author: Tobias Timofeyev
 
 ## Content:
 ### 1. Approximating Bessel Functions of the First Kind:
