@@ -2,7 +2,7 @@
 author: Tobias Timofeyev
 
 ## Content:
-1. Approximating Bessel Functions of the First Kind:
+### 1. Approximating Bessel Functions of the First Kind:
   - `Bessel_Project_Presentation.pptx` A slideshow that provides context and setup for the project
   -  `Tobias_Euler_2ndOrder.m` Function that can be called to approximate a DE using the euler approximation. 
       Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, and step size, h.
@@ -10,8 +10,8 @@ author: Tobias Timofeyev
       Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, and step size, h.
   - `Bessel_Approx.m` Main file that approximates a few Bessel functions of the first kind
  
-2. Selected Numerical Differential Equations Code:
-   ### Functions for numerical approximation methods
+### 2. Selected Numerical Differential Equations Code:
+   #### Functions for numerical approximation methods
   -  `Tobias_Euler_2ndOrder.m` Function that can be called to approximate a DE using the euler approximation. 
       Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, and step size, h.
   -  `Tobias_cRK_2ndOrder.m` Function that can be called to approximate a DE using the Classical Runge-Kutta (rk4) approximation. 
@@ -30,7 +30,7 @@ author: Tobias Timofeyev
   -  `Tobias_ModEuler_2ndOrder.m` Function that can be called to approximate a DE using the Modified Euler approximation. 
       Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, and step size, h.
       
-  ### Code Exemplifying the use of numerical methods as well as issues surrounding their use
+  #### Code Exemplifying the use of numerical methods as well as issues surrounding their use
   -   `12_Von_Neuman_1DHE_Dominating_Error.m` Graph of numerical scheme for the heat equation where von neuman analysis would tell us that that the error will dominate the solution.
   -   `13_Crank_Nicholson_1DHE_HomogBCs.m` Demonstrates Crank Nicholson Scheme on a 1 dimensional heat equation with homogeneous boundary conditions.
   -   `13_Von_Neumann_AmpFact_Analysis.m` When doing von neuman analysis on a numerical scheme, an amplification factor, rho, is found, which represents the growth of error in the problem. 
