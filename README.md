@@ -5,30 +5,30 @@ Author: Tobias Timofeyev
 ### 1. Approximating Bessel Functions of the First Kind:
   - `Bessel_Project_Presentation.pptx` A slideshow that provides context and setup for the project
   -  `Tobias_Euler_2ndOrder.m` Function that can be called to approximate a DE using the euler approximation. 
-      Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, and step size, h.
+      Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, xspan, and step size, h.
   -  `Tobias_cRK_2ndOrder.m` Function that can be called to approximate a DE using the Classical Runge-Kutta (rk4) approximation. 
-      Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, and step size, h.
+      Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, xspan, and step size, h.
   - `Bessel_Approx.m` Main file that approximates a few Bessel functions of the first kind
  
 ### 2. Selected Numerical Differential Equations Code:
    #### Functions for numerical approximation methods
   -  `Tobias_Euler_2ndOrder.m` Function that can be called to approximate a DE using the euler approximation. 
-      Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, and step size, h.
+      Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, xspan, and step size, h.
   -  `Tobias_cRK_2ndOrder.m` Function that can be called to approximate a DE using the Classical Runge-Kutta (rk4) approximation. 
-      Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, and step size, h.
+      Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, xspan, and step size, h.
   -  `Tobias_Center_2ndOrder.m` Function that can be called to approximate a DE using the Central difference approximation. 
-      Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, and step size, h.
+      Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, xspan, and step size, h.
   -  `Tobias_ModEuler_2ndOrder.m` Function that can be called to approximate a DE using the Modified Euler approximation. 
-      Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, and step size, h.
+      Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, xspan, and step size, h.
   -  `Tobias_ModEuler_Matrix.m` Function that can be called to approximate a DE using the Modified Euler approximation. 
       This differs syntactically from the previous in that it accepts and modifies a matrix instead of distinct vectors. 
-      Takes as input the function, f, initial condition (vector), y0, , total x-interval, and step size, h.
+      Takes as input the function, f, initial condition (vector), y0, , total x-interval, xspan, and step size, h.
   -  `Tobias_SympEuler_2ndOrder.m` Function that can be called to approximate a DE using the Symplectic Euler approximation. 
-      Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, and step size, h.
+      Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, xspan, and step size, h.
   -  `Tobias_Verlet1_2ndOrder.m` Function that can be called to approximate a DE using the Verlet approximation. 
-      Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, and step size, h.
+      Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, xspan, and step size, h.
   -  `Tobias_ModEuler_2ndOrder.m` Function that can be called to approximate a DE using the Modified Euler approximation. 
-      Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, and step size, h.
+      Takes as input the function, f, initial position, y0, initial change in position, v0, total x-interval, xspan, and step size, h.
       
   #### Code Exemplifying the use of numerical methods as well as issues surrounding their use
   -   `12_Von_Neuman_1DHE_Dominating_Error.m` Graph of numerical scheme for the heat equation where von neuman analysis would tell us that that the error will dominate the solution.
