@@ -1,4 +1,5 @@
 % Function for the Thomas Algorithm for solving a tridiagonal linear system.
+% The work of Professor Taras Lakoba at UVM. Tobias Timofeyev includes this as it is necessary code for some of his code
 
 % User inputs vectors containing the diagonal elements (b) and the
 % subdiagonal elements (a - the lower, and c - the upper).
